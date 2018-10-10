@@ -1,0 +1,8 @@
+name: ros2-listener-james
+summary: ROS2 listener application
+maintainer: James Jesudason <james.jesudason@canonical.com>
+description: |
+  ROS2 listener application.
+display-name: ros2-listener-james
+tags:
+  - service

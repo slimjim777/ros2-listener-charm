@@ -1,0 +1,14 @@
+[Unit]
+Description=ROS2 listener service
+Wants=network-online.target
+
+[Service]
+ExecStart=/usr/bin/listener
+SyslogIdentifier=listener
+Restart=on-failure
+
+TimeoutStopSec=30
+Type=simple
+
+[Install]
+WantedBy=multi-user.target
